@@ -24,6 +24,7 @@
 .enviar{
     height: 26px;
     font-size: 20px;
+    background-color: #FF9900;
 }
 header{
     display: flex;
@@ -89,4 +90,31 @@ span{
 }
 .text{
     width: 250px;
+}
+.body{
+    display: flex;
+}
+.title{
+    margin-left: 40px;
+}
+.promo1{
+    height: 95px;
+    margin-left: 40px;
+}
+.promo2{
+    margin-left: 40px;
+}
+a{
+    margin-left: 40px;
+}
+.more{
+    display: flex;
+    align-items: center;
+}
+.plus{
+    height: 40px;
+    margin-left: 150px;
+}
+.part2{
+    margin-top: 20px;
 }
