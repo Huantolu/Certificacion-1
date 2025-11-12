@@ -1,0 +1,92 @@
+.logo{
+    height: 30px;
+}
+.cart-icon{
+    margin-left: 30px;
+    height: 30px;
+}
+.t1{
+    color: #FC9C0F;
+    font-size: 50px;
+}
+.t2{
+    font-size: 50px;
+}
+.cantidad{
+    margin-left: 5px;
+    font-size: 20px;
+}
+.input{
+    margin-left: 700px;
+    height: 20px;
+    font-size: 20px;
+}
+.enviar{
+    height: 26px;
+    font-size: 20px;
+}
+header{
+    display: flex;
+    justify-content: baseline;
+    align-items: center;
+    height: 60px;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.line{
+    border: solid black 1px;
+}
+.taco{
+    height: 210px;
+    width: 170px;
+    display: flex;
+    margin-top: 40px;
+    align-items: center;
+    flex-direction: column;
+    .image1{
+        height: 140px;
+        width: 140px;
+        border: solid black 1px;
+    }
+    .text-image1{
+        text-align: center;
+        color: white;
+    }
+}
+.lista{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #F7C99B;
+    width: 1150px;
+    height: 210px;
+    margin-top: 3px;
+    margin-left: 122px;
+}
+span{
+    color: #FC9C0F;
+}
+.offer{
+    background-color: #c1c1c1;
+    height: 450px;
+    width:  740px;
+    margin-top: 20px;
+    margin-left: 122px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+}
+.img-promo{
+    height: 410px;
+}
+.p1{
+    font-size: 40px;
+}
+.p2{
+    font-size: 25px;
+}
+.text{
+    width: 250px;
+}
