@@ -18,7 +18,7 @@
 }
 .input{
     margin-left: 700px;
-    height: 20px;
+    height: 22px;
     font-size: 20px;
 }
 .enviar{
@@ -113,8 +113,14 @@ a{
 }
 .plus{
     height: 40px;
-    margin-left: 150px;
 }
 .part2{
     margin-top: 20px;
+}
+button{
+    height: 50px;
+    width: 50px;
+    margin-left: 150px;
+    border: 0;
+    background-color: white;
 }

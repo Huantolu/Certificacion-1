@@ -14,7 +14,7 @@
         <input class="input" type="email" placeholder="email">
         <input class="enviar" type="submit">
         <img class="cart-icon" src="Data/carrito-de-compras.png" alt="">
-        <h3 class="cantidad">0</h3>
+        <h3 class="cantidad" id="numero">0</h3>
     </header>
     <div class="line"></div>
     <div class="lista">
@@ -49,7 +49,7 @@
                 <p class="p1">La mejor variedad en platillos de comida <strong>Mexicana</strong></p>
                 <p class="p2">Contamos con servicio a <span>domicilio</span></p>
             </div>
-            <img class="img-promo" src="Data/images (2).jfif" alt="">
+            <img class="img-promo" id="changing-image" src="Data/images (2).jfif" alt="">
         </div>
         <div class="recomendaciones">
             <h1 class="title">Recomendados:</h1>
@@ -59,7 +59,9 @@
                     <h3 class="promo2">Orden de tacos</h3>
                     <a href="">Ver más...</a>
                 </div>
-                <img class="plus" src="Data/mas.png" alt="">
+                <button onclick="aumentar(1)">
+                    <img class="plus" src="Data/mas.png" alt="">
+                </button>
             </div>
             <div class="part2">
                 <img class="promo1" src="Data/Diseño sin título (6).png" alt="">
@@ -68,10 +70,13 @@
                         <h3 class="promo2">Orden de tacos</h3>
                         <a href="">Ver más...</a>
                     </div>
-                    <img class="plus" src="Data/mas.png" alt="">
+                    <button onclick="aumentar(1)">
+                        <img class="plus" src="Data/mas.png" alt="">
+                    </button>
                 </div>
             </div>
         </div>
     </div>
+    <script src="script.js"></script>
 </body>
 </html>
